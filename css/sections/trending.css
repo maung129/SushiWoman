@@ -1,0 +1,87 @@
+.trending{
+    min-height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(255, 134, 134, 0.1);
+    position: relative;
+}
+
+.trending__food{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.trending__context {
+    flex:1 ;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    padding:30px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 10px;
+    z-index: 5;
+}
+    
+.trending__discover{
+    position: absolute;
+    top:41%;
+   background-color: rgba(0, 0, 0, 0.8);
+   color:white;
+   font-family: var(--playfair-display);
+    text-align: center;
+    font-weight: 500;
+    border-radius: 50%;
+    width:100px;
+    height: 100px;
+    z-index: -5;
+    text-align: center;
+    
+}
+
+.trending__discover p{
+    margin-top:40%
+}
+
+.trending__image{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trending__drink{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 5;
+}
+
+
+
+.trending .sushi{
+    width:60%;
+    height: 70%;
+    
+}
+
+.trending__subtitle{
+    font-weight: 700;
+    font-family: var(--playfair-display);
+    color:rgb(199, 48, 48);
+}
+
+.trending h1{
+    font-family: var(--playfair-display);
+    letter-spacing: 0.1em;
+    font-size: 29px;
+    margin-bottom: 20px;
+}
+
+.trending__list{
+    list-style: none;
+    font-family: var(--playfair-display);
+}
